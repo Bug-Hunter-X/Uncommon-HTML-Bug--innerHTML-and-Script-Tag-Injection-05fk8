@@ -1,0 +1,1 @@
+This repository demonstrates an uncommon HTML bug related to the incorrect usage of innerHTML to insert a script tag.  The bug leads to unexpected behavior and can introduce Cross-Site Scripting (XSS) vulnerabilities if the content being inserted comes from untrusted sources. The solution showcases the proper way to dynamically add scripts without these risks.
