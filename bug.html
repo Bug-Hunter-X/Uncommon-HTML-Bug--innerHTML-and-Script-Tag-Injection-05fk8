@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Bug</title>
+</head>
+<body>
+  <div id="myDiv"></div>
+  <script>
+    // Incorrectly using innerHTML to insert an entire <script> tag
+    document.getElementById('myDiv').innerHTML = '<script>alert("Hello, world!");</script>';
+  </script>
+</body>
+</html>
