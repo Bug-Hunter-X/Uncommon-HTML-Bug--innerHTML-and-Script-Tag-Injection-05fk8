@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Bug Solution</title>
+</head>
+<body>
+  <div id="myDiv"></div>
+  <script>
+    // Create a new script element
+    let script = document.createElement('script');
+    // Set the script's text content
+    script.textContent = 'alert("Hello, world!");';
+    // Append the script to the DOM
+    document.getElementById('myDiv').appendChild(script);
+  </script>
+</body>
+</html>
